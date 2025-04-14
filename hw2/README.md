@@ -1,4 +1,4 @@
-![hw2_1](C:\Users\weian\桌面\hw2_1.png)
+<img src="1.png" style="zoom: 33%;" />
 
 # 範例的運行嘗試
 
@@ -8,7 +8,7 @@ N2 = 20
 
 N3 = 20`
 
-![image-20250414204504339](C:\Users\weian\AppData\Roaming\Typora\typora-user-images\image-20250414204504339.png)
+<img src="2.png" style="zoom: 33%;" />
 
 # 嘗試一 建構四層神經網路
 
@@ -20,7 +20,7 @@ N3 = 32
 
 N4 = 16`
 
-![image-20250414204555941](C:\Users\weian\AppData\Roaming\Typora\typora-user-images\image-20250414204555941.png)
+<img src="3.png" style="zoom: 33%;" />
 
 ## 四層結果0.896 不如三層0.926
 
@@ -32,7 +32,7 @@ N4 = 16`
 
 `from tensorflow.keras.layers import Dropout`
 
-![image-20250414204804625](C:\Users\weian\AppData\Roaming\Typora\typora-user-images\image-20250414204804625.png)
+<img src="4.png" style="zoom: 33%;" />
 
 表現大幅下降，可能是因為 Dropout 的使用增加了模型的複雜度，訓練時間的增加才可以讓模型良好的收斂
 
@@ -46,7 +46,7 @@ N4 = 16`
 
 `model.fit(x_train, y_train, batch_size=100, epochs=100)`
 
-![image-20250414205306914](C:\Users\weian\AppData\Roaming\Typora\typora-user-images\image-20250414205306914.png)
+<img src="5.png" style="zoom: 33%;" />
 
 # 心得和總結
 
@@ -82,4 +82,4 @@ N4 = 16`
   - Loss: 0.0105
   - 正確率: 94.2%
 - 　最後我增加了訓練的 Epochs 至 100。這一次，模型終於展現出了它的潛力，正確率提升到了 94.2%，Loss 值也顯著降低。這讓我明白，調參不僅需要勇氣，更需要細心與耐心。
-- ![](C:\Users\weian\桌面\下載.png)
+<img src="6.png" style="zoom: 33%;" />
