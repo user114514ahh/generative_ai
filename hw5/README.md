@@ -10,7 +10,7 @@
 
 介紹slider.change的基本用法和範例:
 
-![](C:\Users\weian\桌面\螢幕擷取畫面 2025-04-05 193345.png)
+<img src="螢幕擷取畫面 2025-04-05 193345.png" style="zoom: 33%;" />
 
 提供思路完成十個設定變化和描述調整，透過建立並維護變數**madness_level**:
 
@@ -23,4 +23,4 @@ def update_description(madness_level):
 
 ### gradio介面截圖
 
-![](C:\Users\weian\桌面\image.png)
+<img src="image.png" style="zoom: 33%;" />
