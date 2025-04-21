@@ -10,13 +10,13 @@
 
 ### 調整參數的結果
 
-![](C:\Users\weian\桌面\w7\3.png)
+<img src="3.png" style="zoom: 33%;" />
 
-![](C:\Users\weian\桌面\w7\4.png)
+<img src="4.png" style="zoom: 33%;" />
 
-![](C:\Users\weian\桌面\w7\5.png)
+<img src="5.png" style="zoom: 33%;" />
 
-![](C:\Users\weian\桌面\w7\6.png)
+<img src="6.png" style="zoom: 33%;" />
 
 除了預先用 system 規劃生成內容，調整參數也能大幅度改變生成的內容
 
@@ -35,16 +35,16 @@
 
 無論程式是順利執行完 `try` 區塊並進入 `if` 分支，還是 `try` 區塊執行失敗直接跳到 `except` 區塊，這個函式在**所有預期的執行路徑結束時，都必須有一個 `return` 語句**
 
-![](C:\Users\weian\桌面\w7\7.png)
+<img src="7.png" style="zoom: 33%;" />
 
 ### 傳遞數據和ai互動流程設計
 
 `generation_prompt` 的構建 (`f"計畫如下：{schedule}根據它寫一段..."`) 是一個典型的 **Prompt Engineering** 技巧，這也說明了跟原本的代碼不同的地方，兩個模型的協作產生的多階段生成，用`planner`跟`writer`;`schdule`跟`finalPost`區分
 
-![](C:\Users\weian\桌面\w7\8.png)
+<img src="8.png" style="zoom: 33%;" />
 
 ### Gradio介面
 
-![](C:\Users\weian\桌面\w7\1.png)
+<img src="1.png" style="zoom: 33%;" />
 
-![](C:\Users\weian\桌面\w7\2.png)
+<img src="2.png" style="zoom: 33%;" />
